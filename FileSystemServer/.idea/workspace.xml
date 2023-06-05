@@ -5,29 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c035076e-0131-454d-837a-8ccde2deac01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FileSystemClient/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileSystemClient/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/ChangeDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CreateDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CreateDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CreateFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/GoToDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/ListDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/ModifyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/SeeFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/SeeProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Share.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/AbstractObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/IObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ClientManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/Commands/Clear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/Commands/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/Commands/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/Commands/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/Commands/SetId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/CommandsInfo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/CommandsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/FileManagerGui.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/FileManagerGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/GUI/ProxyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileSystemClient/src/main/java/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileXML/IFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileXML/XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/ANode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/ENodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/NodeDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/NodeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/NodesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/RootUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArbolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XMLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Commands/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Commands/GoToDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/ClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -52,14 +62,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Esteb/OneDrive/Documentos/GitHub/DISEÑO DE SOFTWARE/ObserverCase/ApiObserverLibrary"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Esteb/OneDrive/Documentos/GitHub/TrianglesCoder&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.ArbolTest">
+    <configuration name="ArbolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArbolTest" />
+      <module name="FileSystemServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="FileSystemServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="XMLTest" />
+      <module name="FileSystemServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.XMLTest" />
+      <item itemvalue="Application.ArbolTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArbolTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +115,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685509193807</updated>
-      <workItem from="1685509195277" duration="4881000" />
+      <workItem from="1685509195277" duration="4950000" />
+      <workItem from="1685573368454" duration="13083000" />
+      <workItem from="1685664901425" duration="11033000" />
+      <workItem from="1685810999133" duration="15382000" />
     </task>
     <servers />
   </component>
@@ -85,5 +135,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tree/RootUser.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ArbolTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ArbolTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

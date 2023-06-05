@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.FileManagerGui">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="655" height="495"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="be140" binding="panelTerminal" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15987650"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="f25b1" binding="panelButtons" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15987650"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cbe1a" class="javax.swing.JButton" binding="buttonCommands">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14211994"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <text value="Commands"/>
+                </properties>
+              </component>
+              <component id="49bfe" class="javax.swing.JButton" binding="buttonSend">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2490542"/>
+                  <enabled value="true"/>
+                  <font size="20"/>
+                  <foreground color="-15660773"/>
+                  <text value="Send"/>
+                </properties>
+              </component>
+              <component id="21406" class="javax.swing.JLabel" binding="labelID">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="20"/>
+                  <foreground color="-1"/>
+                  <text value="ID:"/>
+                </properties>
+              </component>
+              <component id="1abfc" class="javax.swing.JButton" binding="buttonExit">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-34195"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <text value="Exit"/>
+                </properties>
+              </component>
+              <component id="e86ae" class="javax.swing.JLabel" binding="labelState">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="20"/>
+                  <foreground color="-1"/>
+                  <text value="State: not logged"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="8337e" class="javax.swing.JTextPane" binding="textTerminal">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16251363"/>
+              <font name="Consolas" size="20"/>
+              <foreground color="-2728791"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

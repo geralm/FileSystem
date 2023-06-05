@@ -25,7 +25,7 @@ public class ClientManager {
         }
         return s;
     }
-    private int getRand(){
+    public int getRand(){
         Random random = new Random();
         int randomInt  = random.nextInt(9999)+1000;
         return randomInt;

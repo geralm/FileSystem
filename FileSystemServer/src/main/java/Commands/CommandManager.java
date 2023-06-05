@@ -24,7 +24,6 @@ public class CommandManager  {
     }
     private void init_all_commands(){
         registCommand("cd", new CreateDrive());
-        registCommand("ed", new GoToDrive());
         registCommand("ca", new CreateFile());
         registCommand("cd", new CreateDirectory());
         registCommand("chdir", new ChangeDirectory());
@@ -36,5 +35,6 @@ public class CommandManager  {
         registCommand("mv", new Move());
         registCommand("del", new Delete());
         registCommand("shr", new Share());
+        registCommand("lg", new LogIn());
     }
 }
